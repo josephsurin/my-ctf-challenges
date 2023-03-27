@@ -1,0 +1,20 @@
+id: ductf-2021-substitution-cipher-i
+name: Substitution Cipher I
+category: crypto
+ctf: DownUnderCTF 2021
+difficulty: 0
+tags:
+  - Baby
+notes: ''
+description: Just a simple substitution cipher to get started...
+hosting: file
+handout_files:
+- ./challenge/substitution-cipher-i.sage
+- ./challenge/output.txt
+flag: DUCTF{sh0uld'v3_us3d_r0t_13}
+solve_stats:
+  solved_teams: 362
+  num_teams: 2145
+solver: ./solve/solve.sage
+writeup:
+  file: ./solve/writeup.md

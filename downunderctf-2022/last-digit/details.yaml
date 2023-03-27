@@ -1,0 +1,19 @@
+id: ductf-2022-last-digit
+name: last digit
+category: misc
+ctf: DownUnderCTF 2022
+difficulty: 1
+tags:
+  - CVE-2020-10735
+notes: Co-authored with [hashkitten](https://twitter.com/hash_kitten)
+description: |-
+  Can you get the flag given its last digit?
+hosting: tcp
+handout_files:
+- ./publish/Dockerfile
+- ./publish/last-digit.py
+flag: CTF{14288_bits_should_be_enough_for_anybody_:)}
+solve_stats:
+  solved_teams: 26
+  num_teams: 1970
+solver: ./solve/solv.py

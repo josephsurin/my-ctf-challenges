@@ -1,0 +1,17 @@
+id: ductf-2021-encrypted-note
+name: encrypted note
+category: pwn
+ctf: DownUnderCTF 2021
+difficulty: 3
+tags:
+  - Crypto
+notes: ''
+description: Encrypted notepad as a service...
+hosting: tcp
+handout_files:
+- ./challenge/encrypted_note
+flag: DUCTF{c4n_1_g3t_a_p1zza_th4t_1s_h4lf_p3pper0n1_4nd_h4lf_ch33s3_ple4se!}
+solve_stats:
+  solved_teams: 22
+  num_teams: 2145
+solver: ./solve/solve.py

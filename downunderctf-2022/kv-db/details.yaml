@@ -1,0 +1,19 @@
+id: ductf-2022-kv-db
+name: kv_db
+category: pwn
+ctf: DownUnderCTF 2022
+difficulty: 2
+tags:
+  - C++
+notes: ''
+description: I created a key-value database and stored the flag in it.
+hosting: tcp
+handout_files:
+- ./publish/kv_db
+- ./publish/kv_db.cpp
+- ./publish/Dockerfile
+flag: DUCTF{m3m0ry_c0rrupt1on_1nt0_dat4b4s3_c0rrupt10n_8b9a14fa7e7c98aa}
+solve_stats:
+  solved_teams: 17
+  num_teams: 1970
+solver: ./solve/solv.py

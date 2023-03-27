@@ -1,0 +1,25 @@
+id: ductf-2021-bullet-hell
+name: bullet hell
+category: reversing
+ctf: DownUnderCTF 2021
+difficulty: 2
+tags:
+  - Game
+notes: ''
+description: |-
+  Can you survive in this land of illusions?
+
+  SSH password: `ductf`
+hosting: tcp
+handout_files:
+- ./challenge/bullet_hell
+flag: DUCTF{i_th1nk_w3're_g0nna_n33d_a_lunatic_d1fficul7y}
+solve_stats:
+  solved_teams: 7
+  num_teams: 2145
+solver: ./solve/solve.py
+writeup:
+  file: ./solve/writeup.md
+  external:
+    - link: https://www.justinsteven.com/posts/2021/10/01/ductf-bullet-hell/
+      name: justinsteven's writeup

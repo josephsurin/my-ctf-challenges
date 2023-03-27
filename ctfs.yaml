@@ -1,0 +1,23 @@
+- name: DownUnderCTF 2020
+  website: https://duc.tf
+  ctftime: https://ctftime.org/event/1084/
+  description: ""
+  date: "Fri, 18 Sept. 2020, 19:00 AEST — Sun, 20 Sept. 2020, 19:00 AEST"
+  repo: https://github.com/DownUnderCTF/Challenges_2020_Public
+- name: DownUnderCTF 2021
+  website: https://duc.tf
+  ctftime: https://ctftime.org/event/1312/
+  description: ""
+  date: "Fri, 24 Sept. 2021, 19:00 AEST — Sun, 26 Sept. 2021, 19:00 AEST"
+  repo: https://github.com/DownUnderCTF/Challenges_2021_Public
+- name: DownUnderCTF 2022
+  website: https://duc.tf
+  ctftime: https://ctftime.org/event/1625/
+  description: ""
+  date: "Fri, 23 Sept. 2022, 19:30 AEST — Sun, 25 Sept. 2022, 19:30 AEST"
+  repo: https://github.com/DownUnderCTF/Challenges_2022_Public
+- name: Cyber Apocalypse 2023
+  website: https://ctf.hackthebox.com/event/details/cyber-apocalypse-2023-the-cursed-mission-821
+  ctftime: https://ctftime.org/event/1889/
+  date: "Sun, 19 March 2023, 00:00 AEDT — Thu, 23 March 2023, 23:59 AEDT"
+  description: HackTheBox approached me to develop these challenges, some details like the title and description for the challenges were created by them.

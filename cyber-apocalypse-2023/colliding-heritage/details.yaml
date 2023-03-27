@@ -1,0 +1,19 @@
+id: cactf-2023-colliding-heritage
+name: Colliding Heritage
+category: crypto
+ctf: Cyber Apocalypse 2023
+difficulty: 1
+tags:
+  - MD5
+  - Schnorr
+notes: ''
+description: |
+  As you arrive at the location of the relic, you discover an ancient tomb that appears to have no visible entrance. However, a scan of the area reveals the presence of unusual RF signals coming from a specific location. With the help of your team, you manage to create an interface to communicate with the signal-emitting device. Unfortunately, the device only grants access to descendants of the pharaoh’s left hand. Can you find a way to enter the tomb?
+hosting: tcp
+handout_files:
+- ./publish/server.py
+flag: HTB{w3ll_y3s_bu7_4c7ual1y_n0...}
+solve_stats:
+  # solved_teams: ?
+  num_teams: 6482
+solver: ./solve/solv.py

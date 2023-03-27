@@ -1,0 +1,22 @@
+id: ductf-2022-crypto-casino
+name: Crypto Casino
+category: blockchain
+ctf: DownUnderCTF 2022
+difficulty: 1
+tags:
+  - EVM
+  - RNG
+notes: ''
+description: |-
+  Come play at the crypto casino and use real crypto(graphy) skills to earn fake crypto(currency)
+
+  Goal: Gain a balance of 1337 DUCoin.
+hosting: blockchain
+handout_files:
+- ./publish/DUCoin.sol
+- ./publish/Casino.sol
+flag: DUCTF{sh0uldv3_us3d_a_vrf??}
+solve_stats:
+  solved_teams: 25
+  num_teams: 1970
+solver: ./solve/solv.py

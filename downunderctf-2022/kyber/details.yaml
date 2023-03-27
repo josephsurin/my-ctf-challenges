@@ -1,0 +1,25 @@
+id: ductf-2022-kyber
+name: kyber±
+category: crypto
+ctf: DownUnderCTF 2022
+difficulty: 4
+tags:
+  - Kyber
+notes: ''
+description: Just a regular Kyber implementation with some patches.
+hosting: tcp
+handout_files:
+- ./publish/kyber.py
+- ./publish/libpqcrystals_kyber512_ref.so
+- ./publish/my.patch
+- ./publish/build-kyber.sh
+flag: DUCTF{w3ll_d0n3_0n_und3rst4nd1ng_Kyber_4s_cl34r_4s_crystal..._n0w_c4n_y0u_br34k_1t_w1th0ut_th3_p4tch??_11f0ffee7cfaf83b794a05cc97293dc936f0fcb6164790ab}
+solve_stats:
+  solved_teams: 1
+  num_teams: 1970
+solver: ./solve/solv.sage
+writeup:
+  file: ./solve/WRITEUP.md
+  external:
+    - link: https://jsur.in/posts/2022-09-25-ductf-2022-kyber-writeup
+      name: Author's writeup

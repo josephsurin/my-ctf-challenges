@@ -1,0 +1,19 @@
+id: ductf-2022-pac
+name: pac
+category: pwn
+ctf: DownUnderCTF 2022
+difficulty: 2
+tags:
+  - Crypto
+  - Linux Kernel
+notes: ''
+description: We've rolled our own pointer authentication for our kernel module, so
+  we don't need other protections like SMEP and SMAP...
+hosting: tcp
+handout_files:
+- ./publish/pac.tar.gz
+flag: DUCTF{pac_must_stand_for_pwn_and_crypto_9b8a1bc12f2a39cc}
+solve_stats:
+  solved_teams: 7
+  num_teams: 1970
+solver: ./solve/

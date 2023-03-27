@@ -1,0 +1,25 @@
+id: ductf-2020-hex-shift-cipher
+name: Hex Shift Cipher
+category: crypto
+ctf: DownUnderCTF 2020
+difficulty: 2
+tags:
+  - Linear Algebra
+notes: ""
+description: |
+  People say shift ciphers aren't secure. I'm here to prove them wrong!
+hosting: file
+handout_files:
+  - ./challenge/hex-shift-cipher.py
+flag: DUCTF{d1d_y0u_Us3_gu3ss1nG_0r_l1n34r_4lg3bRA??}
+solve_stats:
+  solved_teams: 44
+  num_teams: 1391
+solver: ./exploit/exploit.sage
+writeup:
+  file: ./exploit/writeup.ipynb
+  external:
+    - link: https://jsur.in/posts/2020-09-20-downunderctf-2020-writeups#hex-shift-cipher
+      name: Author's writeup
+    - link: https://rkm0959.tistory.com/162
+      name: rkm0959's writeup

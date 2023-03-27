@@ -1,0 +1,19 @@
+id: ductf-2022-rsa-interval-oracle-iii
+name: rsa interval oracle iii
+category: crypto
+ctf: DownUnderCTF 2022
+difficulty: 2
+tags:
+  - RSA
+notes: ''
+description: All this interaction is making me sleepy...
+hosting: tcp
+handout_files:
+- ./publish/rsa-interval-oracle-iii.py
+flag: DUCTF{rsa_1nt3rv4l_0r4cl3_1s_n0_m4tch_f0r_y0u!}
+solve_stats:
+  solved_teams: 23
+  num_teams: 1970
+solver: ./solve/solv.sage
+writeup:
+  file: ./solve/WRITEUP.md

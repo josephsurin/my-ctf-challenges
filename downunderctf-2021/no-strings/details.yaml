@@ -1,0 +1,19 @@
+id: ductf-2021-no-strings
+name: no strings
+category: reversing
+ctf: DownUnderCTF 2021
+difficulty: 0
+tags:
+  - Baby
+notes: ''
+description: This binary contains a free flag. No strings attached, seriously!
+hosting: file
+handout_files:
+- ./challenge/nostrings
+flag: DUCTF{stringent_strings_string}
+solve_stats:
+  solved_teams: 934
+  num_teams: 2145
+solver: ./solve/
+writeup:
+  file: ./solve/WRITEUP.md

@@ -1,0 +1,19 @@
+id: ductf-2022-cheap-ring-theory
+name: cheap ring theory
+category: crypto
+ctf: DownUnderCTF 2022
+difficulty: 1
+tags:
+  - Math
+notes: ''
+description: Can you reveal the structures?
+hosting: tcp
+handout_files:
+- ./publish/crt.sage
+flag: DUCTF{CRT_e4sy_as_0ne_tw0_thr3e}
+solve_stats:
+  solved_teams: 101
+  num_teams: 1970
+solver: ./solve/solv.sage
+writeup:
+  file: ./solve/writeup.md

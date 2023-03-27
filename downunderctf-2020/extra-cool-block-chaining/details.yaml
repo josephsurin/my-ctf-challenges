@@ -1,0 +1,26 @@
+id: ductf-2020-extra-cool-block-chaining
+name: Extra Cool Block Chaining
+category: crypto
+ctf: DownUnderCTF 2020
+difficulty: 2
+tags:
+  - Block Cipher
+  - Puzzle
+notes: ""
+description: |
+  Everyone knows ECB is broken because it lacks diffusion. That's why I've come up with my own variant that uses IVs and chaining and all that cool stuff! It solves all the problems ECB had... I think
+hosting: tcp
+handout_files:
+  - ./challenge/server.py
+flag: DUCTF{4dD1nG_r4nd0M_4rR0ws_4ND_x0RS_h3r3_4nD_th3R3_U5u4Lly_H3lps_Bu7_n0T_7H1s_t1m3_i7_s33ms!!}
+solve_stats:
+  solved_teams: 52
+  num_teams: 1391
+solver: ./exploit/exploit.py
+writeup:
+  file: ./exploit/writeup.md
+  external:
+    - link: https://jsur.in/posts/2020-09-20-downunderctf-2020-writeups#ecbc
+      name: Author's writeup
+    - link: https://rkm0959.tistory.com/162
+      name: rkm0959's writeup

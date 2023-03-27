@@ -1,0 +1,19 @@
+id: ductf-2022-baby-arx
+name: baby arx
+category: crypto
+ctf: DownUnderCTF 2022
+difficulty: 0
+tags:
+  - Baby
+  - Stream Cipher
+notes: ''
+description: I heard that add-rotate-xor are good operations for a cipher so I tried
+  to make my own...
+hosting: file
+handout_files:
+- ./publish/baby-arx.py
+flag: DUCTF{i_d0nt_th1nk_th4ts_h0w_1t_w0rks_actu4lly_92f45fb961ecf420}
+solve_stats:
+  solved_teams: 279
+  num_teams: 1970
+solver: ./solve/solv.py

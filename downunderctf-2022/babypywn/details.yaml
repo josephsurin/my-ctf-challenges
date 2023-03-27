@@ -1,0 +1,17 @@
+id: ductf-2022-babypywn
+name: babyp(y)wn
+category: pwn
+ctf: DownUnderCTF 2022
+difficulty: 0
+tags:
+  - Baby
+notes: ''
+description: Python is memory safe, right?
+hosting: tcp
+handout_files:
+- ./publish/babypywn.py
+flag: DUCTF{C_is_n0t_s0_f0r31gn_f0r_incr3d1bl3_pwn3rs}
+solve_stats:
+  solved_teams: 643
+  num_teams: 1970
+solver: ./solve/solv.py

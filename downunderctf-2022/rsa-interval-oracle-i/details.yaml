@@ -1,0 +1,19 @@
+id: ductf-2022-rsa-interval-oracle-i
+name: rsa interval oracle i
+category: crypto
+ctf: DownUnderCTF 2022
+difficulty: 1
+tags:
+  - RSA
+notes: ''
+description: This oracle leaks a bit too much information...
+hosting: tcp
+handout_files:
+- ./publish/rsa-interval-oracle-i.py
+flag: DUCTF{d1d_y0u_us3_b1n4ry_s34rch?}
+solve_stats:
+  solved_teams: 79
+  num_teams: 1970
+solver: ./solve/solv.py
+writeup:
+  file: ../rsa-interval-oracle-iii/solve/WRITEUP.md

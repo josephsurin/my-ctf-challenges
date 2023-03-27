@@ -1,0 +1,20 @@
+id: ductf-2021-flag-loader
+name: flag loader
+category: reversing
+ctf: DownUnderCTF 2021
+difficulty: 1
+tags:
+  - Puzzle
+notes: ''
+description: What more could you ask for than a program that loads the flag for you?
+  Just answer a few simple questions and the flag is yours!
+hosting: tcp
+handout_files:
+- ./challenge/flag_loader
+flag: DUCTF{y0u_sur3_kn0w_y0ur_int3gr4l_d4t4_typ3s!}
+solve_stats:
+  solved_teams: 85
+  num_teams: 2145
+solver: ./solve/solve.py
+writeup:
+  file: ./solve/writeup.md

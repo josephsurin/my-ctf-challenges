@@ -1,0 +1,24 @@
+id: ductf-2021-1337crypt-v2
+name: 1337crypt v2
+category: crypto
+ctf: DownUnderCTF 2021
+difficulty: 3
+tags:
+  - LLL
+notes: ''
+description: '[1337crypt](https://github.com/DownUnderCTF/Challenges_2020_public/tree/master/crypto/1337crypt)
+  is back. This time, with added _complexity_.'
+hosting: file
+handout_files:
+- ./challenge/1337crypt-v2.sage
+- ./challenge/output.txt
+flag: DUCTF{mantissa_in_crypto??_n0_th4nks!!}
+solve_stats:
+  solved_teams: 3
+  num_teams: 2145
+solver: ./solve/solve.sage
+writeup:
+  file: ./solve/writeup.ipynb
+  external:
+    - link: https://jsur.in/posts/2021-09-26-ductf-2021-writeups#1337crypt-v2
+      name: Author's writeup

@@ -1,0 +1,17 @@
+id: ductf-2022-evm-vault-mechanism
+name: EVM Vault Mechanism
+category: blockchain
+ctf: DownUnderCTF 2022
+difficulty: 3
+tags:
+  - EVM
+  - Reversing
+notes: ''
+description: Unlock the vault and the treasures are yours.
+hosting: blockchain
+handout_files: []
+flag: DUCTF{b3y0nd_th3_v4ult_li3s_a_w3ll_d3serv3d_fl4g}
+solve_stats:
+  solved_teams: 4
+  num_teams: 1970
+solver: ./solve/solv.py

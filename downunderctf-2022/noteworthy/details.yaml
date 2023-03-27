@@ -1,0 +1,18 @@
+id: ductf-2022-noteworthy
+name: noteworthy
+category: web
+ctf: DownUnderCTF 2022
+difficulty: 1
+tags:
+  - Express
+notes: ''
+description: What's a beginner-friendly CTF without a totally not generic Bootstrap
+  note taking web chall?
+hosting: http
+handout_files:
+- ./publish/noteworthy.tar.gz
+flag: DUCTF{n0sql1_1s_th3_new_5qli}
+solve_stats:
+  solved_teams: 60
+  num_teams: 1970
+solver: ./solve/solv.py

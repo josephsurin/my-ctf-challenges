@@ -1,0 +1,27 @@
+id: ductf-2020-1337crypt
+name: 1337crypt
+category: crypto
+ctf: DownUnderCTF 2020
+difficulty: 3
+tags:
+  - LLL
+  - Goldwasser-Micali
+notes: ""
+description: |
+  Can you solve my factorisation problem if I give you a hint?
+hosting: file
+handout_files:
+  - ./challenge/1337crypt.sage
+  - ./challenge/output.txt
+flag: DUCTF{wh0_N33ds_pr3cIsi0n_wh3n_y0u_h4v3_c0pp3rsmiths_M3thod}
+solve_stats:
+  solved_teams: 3
+  num_teams: 1391
+solver: ./exploit/exploit.sage
+writeup:
+  file: ./exploit/writeup.ipynb
+  external:
+    - link: https://jsur.in/posts/2020-09-20-downunderctf-2020-writeups#1337crypt
+      name: Author's writeup
+    - link: https://rkm0959.tistory.com/162
+      name: rkm0959's writeup

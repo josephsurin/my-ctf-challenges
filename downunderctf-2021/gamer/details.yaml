@@ -1,0 +1,19 @@
+id: ductf-2021-gamer
+name: gamer
+category: reversing
+ctf: DownUnderCTF 2021
+difficulty: 2
+tags:
+  - Unity
+  - Game
+notes: ''
+description: Are you a pro gamer? Beat (hack) this game and prove it!
+hosting: http
+handout_files: []
+flag: DUCTF{y0u_4r3_a_pr0_g4m3r_a38fb}
+solve_stats:
+  solved_teams: 15
+  num_teams: 2145
+solver: ./solve/index.html
+writeup:
+  file: ./solve/writeup.md

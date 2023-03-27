@@ -1,0 +1,20 @@
+id: ductf-2022-file-magic
+name: file magic
+category: misc
+ctf: DownUnderCTF 2022
+difficulty: 2
+tags:
+  - File formats
+notes: ''
+description: |-
+  Are you a file magician?
+
+  Flag is in `flag.txt` relative to cwd.
+hosting: tcp
+handout_files:
+- ./publish/file-magic.py
+flag: DUCTF{y0u_4r3_4_f1l3_m4g1c14n_ab8a8133fef871becaf1}
+solve_stats:
+  solved_teams: 10
+  num_teams: 1970
+solver: ./solve/solv.py

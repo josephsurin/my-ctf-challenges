@@ -1,0 +1,26 @@
+id: ductf-2021-power-sign
+name: power sign
+category: crypto
+ctf: DownUnderCTF 2021
+difficulty: 3
+tags:
+  - Math
+notes: ''
+description: You know the drill. Forge a signature, get the flag.
+hosting: tcp
+handout_files:
+- ./challenge/power-sign.sage
+flag: DUCTF{lets_us3_a_pr0p3r_h4sh_function_n3xt_t1me...}
+solve_stats:
+  solved_teams: 14
+  num_teams: 2145
+solver: ./solve/solv.sage
+writeup:
+  file: ./solve/writeup.ipynb
+  external:
+    - link: https://jsur.in/posts/2021-09-26-ductf-2021-writeups#power-sign
+      name: Author's writeup
+    - link: https://rkm0959.tistory.com/239
+      name: rkm0959's writeup
+    - link: https://blog.y011d4.com/20210926-ductf-writeup#power-sign
+      name: y011d4's writeup

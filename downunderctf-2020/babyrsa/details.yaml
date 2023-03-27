@@ -1,0 +1,26 @@
+id: ductf-2020-babyrsa
+name: babyrsa
+category: crypto
+ctf: DownUnderCTF 2020
+difficulty: 1
+tags:
+  - RSA
+notes: ""
+description: |
+  This is just RSA for babies!
+hosting: file
+handout_files:
+  - ./challenge/babyrsa.py
+  - ./challenge/output.txt
+flag: DUCTF{e4sy_RSA_ch4ll_t0_g3t_st4rt3d}
+solve_stats:
+  solved_teams: 144
+  num_teams: 1391
+solver: ./exploit/exploit.sage
+writeup:
+  file: ./exploit/writeup.md
+  external:
+    - link: https://jsur.in/posts/2020-09-20-downunderctf-2020-writeups#babyrsa
+      name: Author's writeup
+    - link: https://rkm0959.tistory.com/162
+      name: rkm0959's writeup

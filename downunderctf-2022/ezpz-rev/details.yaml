@@ -1,0 +1,17 @@
+id: ductf-2022-ezpz-rev
+name: ezpz-rev
+category: rev
+ctf: DownUnderCTF 2022
+difficulty: 1
+tags:
+  - Puzzle
+notes: ''
+description: CTFing is tiring. Take a break with this easy puzzle!
+hosting: tcp
+handout_files:
+- ./publish/ezpz
+flag: DUCTF{gr1d_puzzl3s_ar3_t00_ez_r1ght?}
+solve_stats:
+  solved_teams: 42
+  num_teams: 1970
+solver: ./solve/solv.py

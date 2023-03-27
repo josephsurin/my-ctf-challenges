@@ -1,0 +1,20 @@
+id: ductf-2021-rbp
+name: ready, bounce, pwn!
+category: pwn
+ctf: DownUnderCTF 2021
+difficulty: 2
+tags:
+  - Puzzle
+notes: ''
+description: Let's play with `rbp`.
+hosting: tcp
+handout_files:
+- ./challenge/rbp
+- ./challenge/libc.so.6
+flag: DUCTF{n0_0verfl0w?_n0_pr0bl3m!}
+solve_stats:
+  solved_teams: 41
+  num_teams: 2145
+solver: ./solve/solve.py
+writeup:
+  file: ./solve/writeup.md

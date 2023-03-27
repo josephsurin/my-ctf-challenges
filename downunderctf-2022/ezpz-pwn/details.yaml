@@ -1,0 +1,19 @@
+id: ductf-2022-ezpz-pwn
+name: ezpz-pwn
+category: pwn
+ctf: DownUnderCTF 2022
+difficulty: 1
+tags:
+  - ret2libc
+notes: ''
+description: The binary and server in this challenge are the same as "ezpz-rev". It
+  is recommended to solve that first!
+hosting: tcp
+handout_files:
+- ./publish/ezpz
+- ./publish/libc-2.35.so
+flag: DUCTF{ez_r3t2l1bc_9b8a81cda3}
+solve_stats:
+  solved_teams: 33
+  num_teams: 1970
+solver: ./solve/solv.py

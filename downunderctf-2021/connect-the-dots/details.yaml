@@ -1,0 +1,17 @@
+id: ductf-2021-connect-the-dots
+name: connect the dots
+category: reversing
+ctf: DownUnderCTF 2021
+difficulty: 2
+tags:
+  - Graph
+notes: ''
+description: Can you see the forest for the trees?
+hosting: tcp
+handout_files:
+- ./challenge/connect_the_dots
+flag: DUCTF{bfs_dfs_ffs_no_more_mazes_a8fb66c12cd}
+solve_stats:
+  solved_teams: 47
+  num_teams: 2145
+solver: ./solve/solve.py

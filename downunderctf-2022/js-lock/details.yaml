@@ -1,0 +1,19 @@
+id: ductf-2022-js-lock
+name: js lock
+category: rev
+ctf: DownUnderCTF 2022
+difficulty: 1
+tags:
+  - JavaScript
+notes: ''
+description: Top secrets lie behind this definitely secure JS lock.
+hosting: file
+handout_files:
+- ./publish/js-lock.html
+flag: DUCTF{s3arch1ng_thr0ugh_an_arr4y_1s_n0t_th4t_h4rd_ab894d8dfea17}
+solve_stats:
+  solved_teams: 136
+  num_teams: 1970
+solver: ./solve/solv.py
+writeup:
+  file: ./solve/writeup.md

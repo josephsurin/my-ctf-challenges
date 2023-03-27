@@ -1,0 +1,26 @@
+id: ductf-2020-lsb-msb-calculation-game
+name: LSB||MSB Calculation Game
+category: crypto
+ctf: DownUnderCTF 2020
+difficulty: 3
+tags:
+  - LLL
+  - LCG
+notes: ""
+description: |
+  You know the drilll. Guess my numbers and you get the flag!
+hosting: tcp
+handout_files:
+  - ./challenge/server.py
+flag: DUCTF{y0u_4r3_A_m4st3r_1n_gu3ss1ng_y0u_w1ll_g0_v3ry_f4r!_:)}
+solve_stats:
+  solved_teams: 2
+  num_teams: 1391
+solver: ./exploit/exploit.sage
+writeup:
+  file: ./exploit/writeup.ipynb
+  external:
+    - link: https://jsur.in/posts/2020-09-20-downunderctf-2020-writeups#lsb-msb-calculation-game
+      name: Author's writeup
+    - link: https://rkm0959.tistory.com/162
+      name: rkm0959's writeup

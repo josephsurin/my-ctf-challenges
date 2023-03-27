@@ -1,0 +1,24 @@
+id: ductf-2021-substitution-cipher-iii
+name: Substitution Cipher III
+category: crypto
+ctf: DownUnderCTF 2021
+difficulty: 3
+tags:
+  - Multivariate Cryptography
+  - Matsumoto-Imai
+notes: ''
+description: Wait a **MI**nute, that's not a substitution cipher!
+hosting: file
+handout_files:
+- ./challenge/substitution-cipher-iii.sage
+- ./challenge/output.txt
+flag: DUCTF{MQ_1s_fun_a5e39cf21a}
+solve_stats:
+  solved_teams: 1
+  num_teams: 2145
+solver: ./solve/solve.sage
+writeup:
+  file: ./solve/writeup.ipynb
+  external:
+    - link: https://jsur.in/posts/2021-09-26-ductf-2021-writeups#substitution-cipher-iii
+      name: Author's writeup

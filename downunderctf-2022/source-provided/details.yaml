@@ -1,0 +1,18 @@
+id: ductf-2022-source-provided
+name: source provided
+category: rev
+ctf: DownUnderCTF 2022
+difficulty: 0
+tags:
+  - Baby
+notes: ''
+description: In this reversing challenge, source is provided.
+hosting: file
+handout_files:
+- ./publish/chall
+- ./publish/chall.S
+flag: DUCTF{r3v_is_3asy_1f_y0u_can_r34d_ass3mbly_r1ght?}
+solve_stats:
+  solved_teams: 365
+  num_teams: 1970
+solver: ./solve/solv.py

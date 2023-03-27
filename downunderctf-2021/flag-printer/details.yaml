@@ -1,0 +1,19 @@
+id: ductf-2021-flag-printer
+name: flag printer
+category: reversing
+ctf: DownUnderCTF 2021
+difficulty: 2
+tags:
+  - Golang
+  - Matrix
+notes: ''
+description: What more could you ask for than a program that prints out the flag for
+  you? Just run it and the flag is yours!
+hosting: file
+handout_files:
+- ./challenge/flag_printer
+flag: DUCTF{g0tta_GO_f4sTtTTtt!11!1!!_1c5eff59b5e8814d7f92}
+solve_stats:
+  solved_teams: 8
+  num_teams: 2145
+solver: ./solve/solve.sage

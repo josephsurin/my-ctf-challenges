@@ -1,0 +1,26 @@
+id: ductf-2020-impeccable
+name: ImpECCable
+category: crypto
+ctf: DownUnderCTF 2020
+difficulty: 3
+tags:
+  - ECDSA
+  - LLL
+notes: ""
+description: |
+  Can you crack this flawless ECC signature scheme?
+hosting: tcp
+handout_files:
+  - ./challenge/server.py
+flag: DUCTF{y0u_f0unD_7h3_h1dD3n_numB3r5!}
+solve_stats:
+  solved_teams: 3
+  num_teams: 1391
+solver: ./exploit/exploit.sage
+writeup:
+  file: ./exploit/writeup.ipynb
+  external:
+    - link: https://jsur.in/posts/2020-09-20-downunderctf-2020-writeups#impeccable
+      name: Author's writeup
+    - link: https://rkm0959.tistory.com/162
+      name: rkm0959's writeup

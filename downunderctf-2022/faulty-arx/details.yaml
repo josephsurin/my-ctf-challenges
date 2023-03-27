@@ -1,0 +1,17 @@
+id: ductf-2022-faulty-arx
+name: faulty arx
+category: crypto
+ctf: DownUnderCTF 2022
+difficulty: 3
+tags:
+  - ARX
+notes: ''
+description: I tried to implement another ARX cipher...
+hosting: tcp
+handout_files:
+- ./publish/faulty_arx.py
+flag: DUCTF{las3r_b34ms_4nd_g4mm4_r4ys_p0s3_a_s3r10us_thr34t_t0_cryp70gr4phy!1!!}
+solve_stats:
+  solved_teams: 11
+  num_teams: 1970
+solver: ./solve/solv.py

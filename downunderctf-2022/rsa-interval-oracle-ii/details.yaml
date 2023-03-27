@@ -1,0 +1,20 @@
+id: ductf-2022-rsa-interval-oracle-ii
+name: rsa interval oracle ii
+category: crypto
+ctf: DownUnderCTF 2022
+difficulty: 2
+tags:
+  - RSA
+  - Manger
+notes: ''
+description: This time you only get one interval...
+hosting: tcp
+handout_files:
+- ./publish/rsa-interval-oracle-ii.py
+flag: DUCTF{Manger_w0uld_b3_pr0ud_0f_y0u}
+solve_stats:
+  solved_teams: 36
+  num_teams: 1970
+solver: ./solve/solv.py
+writeup:
+  file: ../rsa-interval-oracle-iii/solve/WRITEUP.md

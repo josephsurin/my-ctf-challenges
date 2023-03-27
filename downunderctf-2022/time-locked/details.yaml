@@ -1,0 +1,17 @@
+id: ductf-2022-time-locked
+name: time locked
+category: crypto
+ctf: DownUnderCTF 2022
+difficulty: 2
+tags:
+  - Math
+notes: ''
+description: This script prints out a free flag! If you have a supercomputer...
+hosting: file
+handout_files:
+- ./publish/time-locked.py
+flag: DUCTF{p4y_t0_w1n_91ea0a7b4b688fc8}
+solve_stats:
+  solved_teams: 18
+  num_teams: 1970
+solver: ./solve/solv.sage

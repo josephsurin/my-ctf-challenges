@@ -1,0 +1,17 @@
+id: ductf-2022-xva
+name: xva
+category: rev
+ctf: DownUnderCTF 2022
+difficulty: 2
+tags:
+  - AVX
+notes: ''
+description: For loops? Never heard of it.
+hosting: file
+handout_files:
+- ./publish/xva
+flag: DUCTF{A_V3ry_eXc3ll3n7_r3v3rs3r}
+solve_stats:
+  solved_teams: 30
+  num_teams: 1970
+solver: ./solve/solv.sage

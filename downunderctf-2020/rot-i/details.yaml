@@ -1,0 +1,25 @@
+id: ductf-2020-rot-i
+name: rot-i
+category: crypto
+ctf: DownUnderCTF 2020
+difficulty: 0
+tags:
+  - Baby
+notes: ""
+description: |
+  ROT13 is boring!
+hosting: file
+handout_files:
+  - ./challenge/challenge.txt
+flag: DUCTF{crypto_is_fun_kjqlptzy}
+solve_stats:
+  solved_teams: 447
+  num_teams: 1391
+solver: ./exploit/exploit.py
+writeup:
+  file: ./exploit/writeup.md
+  external:
+    - link: https://jsur.in/posts/2020-09-20-downunderctf-2020-writeups#rot-i
+      name: Author's writeup
+    - link: https://rkm0959.tistory.com/162
+      name: rkm0959's writeup

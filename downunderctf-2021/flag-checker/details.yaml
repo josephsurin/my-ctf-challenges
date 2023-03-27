@@ -1,0 +1,20 @@
+id: ductf-2021-flag-checker
+name: flag checker
+category: reversing
+ctf: DownUnderCTF 2021
+difficulty: 3
+tags:
+  - Math
+notes: ''
+description: What more could you ask for than a program that checks the flag for you?
+  Just guess and check and eventually the flag will be yours!
+hosting: file
+handout_files:
+- ./challenge/flag_checker
+flag: DUCTF{rev3rs1bl3___and___1nv3rtibl3}
+solve_stats:
+  solved_teams: 16
+  num_teams: 2145
+solver: ./solve/solve.sage
+writeup: 
+  file: ./solve/writeup.ipynb

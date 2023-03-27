@@ -1,0 +1,28 @@
+id: ductf-2021-yadlp
+name: yadlp
+category: crypto
+ctf: DownUnderCTF 2021
+difficulty: 3
+tags:
+  - Discrete Logarithm
+  - LLL
+notes: ''
+description: Yet another discrete logarithm problem challenge...
+hosting: file
+handout_files:
+- ./challenge/yadlp.sage
+- ./challenge/output.txt
+flag: DUCTF{a_1337_hyp3rb0la_m33ts_th3_mult1pl3_DLP!!}
+solve_stats:
+  solved_teams: 14
+  num_teams: 2145
+solver: ./solve/solve.sage
+writeup:
+  file: ./solve/writeup.ipynb
+  external:
+    - link: https://jsur.in/posts/2021-09-26-ductf-2021-writeups#yadlp
+      name: Author's writeup
+    - link: https://rkm0959.tistory.com/239
+      name: rkm0959's writeup
+    - link: https://blog.y011d4.com/20210926-ductf-writeup#yadlp
+      name: y011d4's writeup

@@ -1,0 +1,26 @@
+id: ductf-2020-cosmic-rays
+name: Cosmic Rays
+category: crypto
+ctf: DownUnderCTF 2020
+difficulty: 2
+tags:
+  - Block Cipher
+notes: ""
+description: |
+  Cosmic rays have severely corrupted my data!
+hosting: file
+handout_files:
+  - ./challenge/cosmic-rays.py
+  - ./challenge/corrupted-output.txt
+flag: DUCTF{IVs_4r3nt_s3cret!_but_fl4gs_ar3!}
+solve_stats:
+  solved_teams: 25
+  num_teams: 1391
+solver: ./exploit/exploit.py
+writeup:
+  file: ./exploit/writeup.ipynb
+  external:
+    - link: https://jsur.in/posts/2020-09-20-downunderctf-2020-writeups#cosmic-rays
+      name: Author's writeup
+    - link: https://rkm0959.tistory.com/162
+      name: rkm0959's writeup

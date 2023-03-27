@@ -1,0 +1,18 @@
+id: ductf-2022-login
+name: login
+category: pwn
+ctf: DownUnderCTF 2022
+difficulty: 1
+tags:
+  - Heap
+notes: ''
+description: Free shell for admins!
+hosting: tcp
+handout_files:
+- ./publish/login
+- ./publish/login.c
+flag: DUCTF{th3_4uth_1s_s0_bad_1t_d0esnt_ev3n_us3_p4ssw0rds}
+solve_stats:
+  solved_teams: 121
+  num_teams: 1970
+solver: ./solve/solv.py

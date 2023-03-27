@@ -1,0 +1,20 @@
+id: ductf-2022-rsa-interval-oracle-iv
+name: rsa interval oracle iv
+category: crypto
+ctf: DownUnderCTF 2022
+difficulty: 3
+tags:
+  - RSA
+  - LLL
+notes: ''
+description: No more picking and choosing.
+hosting: tcp
+handout_files:
+- ./publish/rsa-interval-oracle-iv.py
+flag: DUCTF{rsa_1nt3rv4l_0r4cl3_1s_s3ri0usly_n0_m4tch_f0r_y0u...94b2a797eb5e0105}
+solve_stats:
+  solved_teams: 5
+  num_teams: 1970
+solver: ./solve/solv.sage
+writeup:
+  file: ../rsa-interval-oracle-iii/solve/WRITEUP.md
