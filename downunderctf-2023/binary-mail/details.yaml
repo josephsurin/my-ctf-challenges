@@ -1,0 +1,21 @@
+id: ductf-2023-binary-mail
+name: binary mail
+category: pwn
+ctf: DownUnderCTF 2023
+difficulty: 2
+tags:
+  - Path traversal
+  - Integer overflow
+  - Logic bug
+notes: ''
+description: Welcome to binary mail v0.1.0. As we are still in beta, please consider
+  all bugs as features for the time being.
+hosting: tcp
+handout_files:
+- ./publish/binary_mail.c
+- ./publish/binary_mail
+flag: DUCTF{y0uv3_g0t_ma1l_and_1ts_4_flag_cada60be8ab71a}
+solve_stats:
+  solved_teams: 26
+  num_teams: 2073
+solver: ./solve/solv.py

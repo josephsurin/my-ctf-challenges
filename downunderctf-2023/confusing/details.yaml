@@ -1,0 +1,19 @@
+id: ductf-2023-confusing
+name: confusing
+category: beginner
+ctf: DownUnderCTF 2023
+difficulty: 0
+tags:
+  - Type confusion
+  - Buffer overflow
+notes: ''
+description: Types can be very confusing.
+hosting: tcp
+handout_files:
+- ./publish/confusing.c
+- ./publish/confusing
+flag: DUCTF{typ3_c0nfus1on_c4n_b3_c0nfus1ng!}
+solve_stats:
+  solved_teams: 157
+  num_teams: 2073
+solver: ./solve/solv.py

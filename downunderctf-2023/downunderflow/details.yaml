@@ -1,0 +1,18 @@
+id: ductf-2023-downunderflow
+name: downunderflow
+category: beginner
+ctf: DownUnderCTF 2023
+difficulty: 0
+tags:
+  - Integer underflow
+notes: ''
+description: It's important to see things from different perspectives.
+hosting: tcp
+handout_files:
+- ./publish/downunderflow.c
+- ./publish/downunderflow
+flag: DUCTF{-65529_==_7_(mod_65536)}
+solve_stats:
+  solved_teams: 521
+  num_teams: 2073
+solver: ./solve/solv.py

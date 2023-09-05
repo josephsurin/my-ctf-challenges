@@ -1,0 +1,18 @@
+id: ductf-2023-one-byte
+name: one byte
+category: beginner
+ctf: DownUnderCTF 2023
+difficulty: 0
+tags:
+  - Buffer overflow
+notes: ''
+description: Here's a one byte buffer overflow!
+hosting: tcp
+handout_files:
+- ./publish/onebyte
+- ./publish/onebyte.c
+flag: DUCTF{all_1t_t4k3s_is_0n3!}
+solve_stats:
+  solved_teams: 189
+  num_teams: 2073
+solver: ./solve/solv.py

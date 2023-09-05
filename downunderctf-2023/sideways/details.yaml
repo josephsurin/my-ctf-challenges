@@ -1,0 +1,18 @@
+id: ductf-2023-sideways
+name: sideways
+category: rev
+ctf: DownUnderCTF 2023
+difficulty: 2
+tags:
+  - Rust
+  - Side channel
+notes: ''
+description: Animals such as crabs sometimes find it easier to move sideways.
+hosting: file
+handout_files:
+- ./publish/sideways
+flag: DUCTF{s1de_ch4nn3ld_af39c}
+solve_stats:
+  solved_teams: 29
+  num_teams: 2073
+solver: ./solve/solv.py

@@ -1,0 +1,18 @@
+id: ductf-2023-complementary
+name: complementary
+category: beginner
+ctf: DownUnderCTF 2023
+difficulty: 0
+tags:
+  - Factoring
+notes: ''
+description: Two halves make a whole.
+hosting: file
+handout_files:
+- ./publish/complementary.py
+- ./publish/output.txt
+flag: DUCTF{is_1nt3ger_f4ct0r1s4t10n_h4rd?}
+solve_stats:
+  solved_teams: 436
+  num_teams: 2073
+solver: ./solve/solv.sage

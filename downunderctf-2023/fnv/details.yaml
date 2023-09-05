@@ -1,0 +1,21 @@
+id: ductf-2023-fnv
+name: fnv
+category: crypto
+ctf: DownUnderCTF 2023
+difficulty: 2
+tags:
+  - Hash function
+  - LLL
+notes: ''
+description: |-
+  I know FNV is not a cryptographic hash function, but it's secure since nobody wrote a tool to break it.
+
+  Author: hashkitten, joseph
+hosting: tcp
+handout_files:
+- ./publish/fnv.py
+flag: DUCTF{sorry_but_your_cryptographic_hash_function_is_in_another_castle}
+solve_stats:
+  solved_teams: 27
+  num_teams: 2073
+solver: ./solve/solution_joseph_LLL.sage

@@ -1,0 +1,17 @@
+id: ductf-2023-dilithium
+name: dilithium±
+category: crypto
+ctf: DownUnderCTF 2023
+difficulty: 4
+tags:
+  - Dilithium
+notes: ''
+description: Just a regular Dilithium implementation with some patches.
+hosting: tcp
+handout_files:
+- ./publish/dilithium.tar.gz
+flag: DUCTF{1n_r34l_l1fe_dilithium_is_actu4lly_a_m0l3cule_ce75f66577ef45e17edde8a5b4}
+solve_stats:
+  solved_teams: 0
+  num_teams: 2073
+solver: ./solve/solv.sage

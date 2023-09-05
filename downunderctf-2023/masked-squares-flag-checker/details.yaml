@@ -1,0 +1,17 @@
+id: ductf-2023-masked_squares_flag_checker
+name: masked squares flag checker
+category: rev
+ctf: DownUnderCTF 2023
+difficulty: 1
+tags:
+  - Z3
+notes: ''
+description: This program checks the flag based on some simple arithmetic operations.
+hosting: file
+handout_files:
+- ./publish/ms_flag_checker
+flag: DUCTF{ezzzpzzz_07bcda7bfe81faf43caa}
+solve_stats:
+  solved_teams: 62
+  num_teams: 2073
+solver: ./solve/solv.py

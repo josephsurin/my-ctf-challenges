@@ -1,0 +1,19 @@
+id: ductf-2023-apbq_rsa_ii
+name: apbq rsa ii
+category: crypto
+ctf: DownUnderCTF 2023
+difficulty: 2
+tags:
+  - RSA
+  - Orthogonal Lattice
+notes: ''
+description: Just another simple RSA problem with some more extra equations.
+hosting: file
+handout_files:
+- ./publish/apbq-rsa-ii.py
+- ./publish/output.txt
+flag: DUCTF{0rtho_l4tt1c3_1s_a_fun_and_gr34t_t3chn1que_f0r_the_t00lbox!}
+solve_stats:
+  solved_teams: 26
+  num_teams: 2073
+solver: ./solve/solv.sage

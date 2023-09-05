@@ -1,0 +1,17 @@
+id: ductf-2023-mini_dns_server
+name: mini dns server
+category: misc
+ctf: DownUnderCTF 2023
+difficulty: 2
+tags:
+  - Puzzle
+notes: ''
+description: This mini DNS server hands out free flags to fellow mini DNS enthusiasts.
+hosting: udp
+handout_files:
+- ./publish/mini_dns_server.py
+flag: DUCTF{1ts.N0t.DNS.There1s.n0W4y.its_DNS.1tw4s.DNS}
+solve_stats:
+  solved_teams: 39
+  num_teams: 2073
+solver: ./solve/solv.py

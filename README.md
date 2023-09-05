@@ -78,6 +78,35 @@ Fri, 23 Sept. 2022, 19:30 AEST — Sun, 25 Sept. 2022, 19:30 AEST
 |[1337crypt v3](downunderctf-2022/1337crypt-v3)|crypto|⭐️⭐️⭐️|2|
 |[kyber±](downunderctf-2022/kyber)|crypto|⭐️⭐️⭐️⭐️|1|
 
+# DownUnderCTF 2023
+Fri, 01 Sept. 2023, 19:30 AEST — Sun, 03 Sept. 2022, 19:30 AEST
+
+[**Website**](https://duc.tf) | [**CTFTime**](https://ctftime.org/event/1954/) | [**Official Repository**](https://github.com/DownUnderCTF/Challenges_2023_Public)
+
+|Name|Category|Difficulty|Solves|
+|---|---|---|---|
+|[static file server](downunderctf-2023/static-file-server)|beginner|👶|594|
+|[downunderflow](downunderctf-2023/downunderflow)|beginner|👶|521|
+|[complementary](downunderctf-2023/complementary)|beginner|👶|436|
+|[randomly chosen](downunderctf-2023/randomly-chosen)|beginner|👶|365|
+|[flag art](downunderctf-2023/flag-art)|beginner|👶|285|
+|[one byte](downunderctf-2023/one-byte)|beginner|👶|189|
+|[confusing](downunderctf-2023/confusing)|beginner|👶|157|
+|[apbq rsa i](downunderctf-2023/apbq-rsa-i)|crypto|⭐️|126|
+|[masked squares flag checker](downunderctf-2023/masked-squares-flag-checker)|rev|⭐️|62|
+|[shifty mem](downunderctf-2023/shifty-mem)|pwn|⭐️⭐️|40|
+|[mini dns server](downunderctf-2023/mini-dns-server)|misc|⭐️⭐️|39|
+|[sideways](downunderctf-2023/sideways)|rev|⭐️⭐️|29|
+|[fnv](downunderctf-2023/fnv)|crypto|⭐️⭐️|27|
+|[apbq rsa ii](downunderctf-2023/apbq-rsa-ii)|crypto|⭐️⭐️|26|
+|[binary mail](downunderctf-2023/binary-mail)|pwn|⭐️⭐️|26|
+|[advanced vector expositions](downunderctf-2023/advanced-vector-expositions)|rev|⭐️⭐️⭐️|12|
+|[lcg card gimmicks](downunderctf-2023/lcg-card-gimmicks)|crypto|⭐️⭐️|11|
+|[number theoretic flag checker](downunderctf-2023/number-theoretic-flag-checker)|rev|⭐️⭐️|9|
+|[handshake](downunderctf-2023/handshake)|crypto|⭐️⭐️⭐️|4|
+|[encrypted mail](downunderctf-2023/encrypted-mail)|crypto|⭐️⭐️⭐️|3|
+|[dilithium±](downunderctf-2023/dilithium)|crypto|⭐️⭐️⭐️⭐️|0|
+
 # Cyber Apocalypse 2023
 Sun, 19 March 2023, 00:00 AEDT — Thu, 23 March 2023, 23:59 AEDT
 

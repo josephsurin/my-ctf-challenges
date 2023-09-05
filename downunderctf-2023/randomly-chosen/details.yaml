@@ -1,0 +1,18 @@
+id: ductf-2023-randomly-chosen
+name: randomly chosen
+category: beginner
+ctf: DownUnderCTF 2023
+difficulty: 0
+tags:
+  - Baby
+notes: ''
+description: Can you recover the flag from this random jumble of characters?
+hosting: file
+handout_files:
+- ./publish/randomly-chosen.py
+- ./publish/output.txt
+flag: DUCTF{is_r4nd0mn3ss_d3t3rm1n1st1c?_cba67ea78f19bcaefd9068f1a}
+solve_stats:
+  solved_teams: 365
+  num_teams: 2073
+solver: ./solve/solv.py

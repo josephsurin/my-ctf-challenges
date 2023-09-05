@@ -1,0 +1,25 @@
+id: ductf-2023-shifty-mem
+name: shifty mem
+category: pwn
+ctf: DownUnderCTF 2023
+difficulty: 2
+tags:
+  - Race condition
+  - Buffer overflow
+notes: ''
+description: |-
+  Shifting as a SUID binary service, because why not?
+
+  Note: This challenge runs over TLS on port 443. You can connect with `openssl` (`openssl s_client -quiet -connect <hostname>:443`) or `pwntools` (`remote('<hostname>', 443, ssl=True)`). This shouldn't affect exploitation.
+
+
+  Estimated startup time: 30 seconds
+hosting: tcp
+handout_files:
+- ./publish/shifty_mem.c
+- ./publish/shifty_mem
+flag: DUCTF{r4c1ng_sh4r3d_m3mory_t0_th3_f1nish_flag}
+solve_stats:
+  solved_teams: 40
+  num_teams: 2073
+solver: ./solve/exploit.c

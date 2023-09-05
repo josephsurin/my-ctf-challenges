@@ -1,0 +1,17 @@
+id: ductf-2023-advanced_vector_expositions
+name: advanced vector expositions
+category: rev
+ctf: DownUnderCTF 2023
+difficulty: 3
+tags:
+  - AVX
+notes: ''
+description: Let's read (and write) a book about AVX.
+hosting: file
+handout_files:
+- ./publish/advanced_vector_expositions
+flag: DUCTF{m4ppy_m4tr1x_avx}
+solve_stats:
+  solved_teams: 12
+  num_teams: 2073
+solver: ./solve/solv.sage

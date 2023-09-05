@@ -1,0 +1,18 @@
+id: ductf-2023-apbq_rsa_i
+name: apbq rsa i
+category: crypto
+ctf: DownUnderCTF 2023
+difficulty: 1
+tags:
+  - RSA
+notes: ''
+description: Just a simple RSA problem with some extra equations.
+hosting: file
+handout_files:
+- ./publish/apbq-rsa-i.py
+- ./publish/output.txt
+flag: DUCTF{gcd_1s_a_g00d_alg0r1thm_f0r_th3_t00lbox}
+solve_stats:
+  solved_teams: 126
+  num_teams: 2073
+solver: ./solve/solv.py

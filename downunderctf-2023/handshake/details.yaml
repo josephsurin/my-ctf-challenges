@@ -1,0 +1,19 @@
+id: ductf-2023-handshake
+name: handshake
+category: crypto
+ctf: DownUnderCTF 2023
+difficulty: 3
+tags:
+  - Hash length extension
+  - Protocol
+  - Puzzle
+notes: ''
+description: A handshake is a common greeting in many places around the world.
+hosting: tcp
+handout_files:
+- ./publish/handshake.tar.gz
+flag: DUCTF{k3y_der1v3d_fr0m_ov3rsh4r3d_mat3r1al}
+solve_stats:
+  solved_teams: 4
+  num_teams: 2073
+solver: ./solve/solv.py

@@ -1,0 +1,19 @@
+id: ductf-2023-static-file-server
+name: static file server
+category: beginner
+ctf: DownUnderCTF 2023
+difficulty: 0
+tags:
+  - Path traversal
+notes: ''
+description: Here's a simple Python app that lets you view some files on the server.
+hosting: tcp
+handout_files:
+- ./publish/static-file-server.zip
+flag: DUCTF{../../../p4th/tr4v3rsal/as/a/s3rv1c3}
+solve_stats:
+  solved_teams: 594
+  num_teams: 2073
+solver: ./solve/
+writeup:
+  file: ./solve/README.md
