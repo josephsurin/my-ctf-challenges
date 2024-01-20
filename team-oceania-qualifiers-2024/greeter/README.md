@@ -1,7 +1,7 @@
 # Team Oceania Qualifiers 2024 - Greeter
 
 - **Category:** pwn
-- **Solves:** 9/50
+- **Solves:** 9/51
 - **Difficulty:** ⭐️
 - **Hosting type:** tcp
 - **Tags:** Buffer overflow

@@ -1,7 +1,7 @@
 # Team Oceania Qualifiers 2024 - Echo Command Breaker
 
 - **Category:** crypto
-- **Solves:** 15/50
+- **Solves:** 17/51
 - **Difficulty:** ⭐️
 - **Hosting type:** tcp
 - **Tags:** ECB, Puzzle

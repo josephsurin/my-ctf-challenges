@@ -1,7 +1,7 @@
 # Team Oceania Qualifiers 2024 - Ruby Chef
 
 - **Category:** web
-- **Solves:** 4/50
+- **Solves:** 4/51
 - **Difficulty:** ⭐️⭐️⭐️
 - **Hosting type:** http
 - **Tags:** Ruby, Puzzle

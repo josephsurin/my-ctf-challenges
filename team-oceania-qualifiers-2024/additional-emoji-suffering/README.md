@@ -1,7 +1,7 @@
 # Team Oceania Qualifiers 2024 - Additional Emoji Suffering
 
 - **Category:** crypto
-- **Solves:** 1/50
+- **Solves:** 2/51
 - **Difficulty:** ⭐️⭐️⭐️
 - **Hosting type:** file
 - **Tags:** Math

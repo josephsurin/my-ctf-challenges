@@ -125,11 +125,11 @@ Sat, 20 January 2024, 11:00 AEDT — Sat, 20 January 2024, 18:00 AEDT
 
 |Name|Category|Difficulty|Solves|
 |---|---|---|---|
-|[Echo Command Breaker](team-oceania-qualifiers-2024/echo-command-breaker)|crypto|⭐️|15|
+|[Echo Command Breaker](team-oceania-qualifiers-2024/echo-command-breaker)|crypto|⭐️|17|
 |[Greeter](team-oceania-qualifiers-2024/greeter)|pwn|⭐️|9|
 |[Ruby Chef](team-oceania-qualifiers-2024/ruby-chef)|web|⭐️⭐️⭐️|4|
-|[ESPer Flag Checker](team-oceania-qualifiers-2024/esper-flag-checker)|rev|⭐️⭐️⭐️|2|
-|[Cryptography 101 Final Exam](team-oceania-qualifiers-2024/cryptography-101-final-exam)|crypto|⭐️⭐️|1|
+|[ESPer Flag Checker](team-oceania-qualifiers-2024/esper-flag-checker)|rev|⭐️⭐️⭐️|3|
+|[Cryptography 101 Final Exam](team-oceania-qualifiers-2024/cryptography-101-final-exam)|crypto|⭐️⭐️|2|
+|[Additional Emoji Suffering](team-oceania-qualifiers-2024/additional-emoji-suffering)|crypto|⭐️⭐️⭐️|2|
 |[Discrete Leaky PRNG](team-oceania-qualifiers-2024/discrete-leaky-prng)|crypto|⭐️⭐️|1|
-|[Additional Emoji Suffering](team-oceania-qualifiers-2024/additional-emoji-suffering)|crypto|⭐️⭐️⭐️|1|
 

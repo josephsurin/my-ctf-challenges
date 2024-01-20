@@ -1,7 +1,7 @@
 # Team Oceania Qualifiers 2024 - Cryptography 101 Final Exam
 
 - **Category:** crypto
-- **Solves:** 1/50
+- **Solves:** 2/51
 - **Difficulty:** ⭐️⭐️
 - **Hosting type:** file
 - **Tags:** RSA, Discrete Logarithm, ECC

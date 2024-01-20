@@ -1,7 +1,7 @@
 # Team Oceania Qualifiers 2024 - ESPer Flag Checker
 
 - **Category:** rev
-- **Solves:** 2/50
+- **Solves:** 3/51
 - **Difficulty:** ⭐️⭐️⭐️
 - **Hosting type:** file
 - **Tags:** ESP32

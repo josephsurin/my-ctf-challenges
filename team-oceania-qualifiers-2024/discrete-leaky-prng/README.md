@@ -1,7 +1,7 @@
 # Team Oceania Qualifiers 2024 - Discrete Leaky PRNG
 
 - **Category:** crypto
-- **Solves:** 1/50
+- **Solves:** 1/51
 - **Difficulty:** ⭐️⭐️
 - **Hosting type:** file
 - **Tags:** Discrete Logarithm, Mersenne Twister
