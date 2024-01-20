@@ -1,0 +1,19 @@
+id: oicc-2024-echo-command-breaker
+name: Echo Command Breaker
+category: crypto
+ctf: Team Oceania Qualifiers 2024
+difficulty: 1
+tags:
+  - ECB
+  - Puzzle
+notes: ''
+description: |
+  Let's warm up with a simple [ECB](https://en.wikipedia.org/wiki/Block_cipher_mode_of_operation#ECB) puzzle. Minimal cryptography knowledge required!
+hosting: tcp
+handout_files:
+- ./publish/server.py
+flag: oiccflag{ecb_could_also_stand_for_easy_crypto_brainteaser_:)}
+solve_stats:
+  solved_teams: 17
+  num_teams: 51
+solver: ./solve/solv.py

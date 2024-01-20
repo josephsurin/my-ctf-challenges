@@ -27,3 +27,8 @@
   ctftime: https://ctftime.org/event/1889/
   date: "Sun, 19 March 2023, 00:00 AEDT — Thu, 23 March 2023, 23:59 AEDT"
   description: HackTheBox approached me to develop these challenges, some details like the title and description for the challenges were created by them.
+- name: Team Oceania Qualifiers 2024
+  website: https://oceaniacc.com
+  ctftime: ""
+  date: "Sat, 20 January 2024, 11:00 AEDT — Sat, 20 January 2024, 18:00 AEDT"
+  description: ""

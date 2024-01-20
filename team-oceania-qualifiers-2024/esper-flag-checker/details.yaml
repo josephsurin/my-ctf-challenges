@@ -1,0 +1,20 @@
+id: oicc-2024-esper-flag-checker
+name: ESPer Flag Checker
+category: rev
+ctf: Team Oceania Qualifiers 2024
+difficulty: 3
+tags:
+  - ESP32
+notes: ''
+description: |
+  Prove your ESPer skills and guess the flag!
+hosting: file
+handout_files:
+- ./publish/flash.bin
+flag: oiccflag{an_ESPecially_skilled_reverse_engineer!}
+solve_stats:
+  solved_teams: 3
+  num_teams: 51
+solver: ./solve/solv.py
+writeup:
+    file: ./solve/README.md

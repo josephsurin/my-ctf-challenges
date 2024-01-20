@@ -118,3 +118,18 @@ Sun, 19 March 2023, 00:00 AEDT — Thu, 23 March 2023, 23:59 AEDT
 |[Colliding Heritage](cyber-apocalypse-2023/colliding-heritage)|crypto|⭐️|?|
 |[Biased Heritage](cyber-apocalypse-2023/biased-heritage)|crypto|⭐️⭐️|?|
 
+# Team Oceania Qualifiers 2024
+Sat, 20 January 2024, 11:00 AEDT — Sat, 20 January 2024, 18:00 AEDT
+
+[**Website**](https://oceaniacc.com)  
+
+|Name|Category|Difficulty|Solves|
+|---|---|---|---|
+|[Echo Command Breaker](team-oceania-qualifiers-2024/echo-command-breaker)|crypto|⭐️|15|
+|[Greeter](team-oceania-qualifiers-2024/greeter)|pwn|⭐️|9|
+|[Ruby Chef](team-oceania-qualifiers-2024/ruby-chef)|web|⭐️⭐️⭐️|4|
+|[ESPer Flag Checker](team-oceania-qualifiers-2024/esper-flag-checker)|rev|⭐️⭐️⭐️|2|
+|[Cryptography 101 Final Exam](team-oceania-qualifiers-2024/cryptography-101-final-exam)|crypto|⭐️⭐️|1|
+|[Discrete Leaky PRNG](team-oceania-qualifiers-2024/discrete-leaky-prng)|crypto|⭐️⭐️|1|
+|[Additional Emoji Suffering](team-oceania-qualifiers-2024/additional-emoji-suffering)|crypto|⭐️⭐️⭐️|1|
+

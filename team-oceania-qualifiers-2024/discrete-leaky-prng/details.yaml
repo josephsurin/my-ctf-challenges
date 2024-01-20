@@ -1,0 +1,20 @@
+id: oicc-2024-discrete-leaky-prng
+name: Discrete Leaky PRNG
+category: crypto
+ctf: Team Oceania Qualifiers 2024
+difficulty: 2
+tags:
+  - Discrete Logarithm
+  - Mersenne Twister
+notes: ''
+description: |
+  The discrete logarithm problem is thought to be hard, so it's okay if I generate the discrete logarithms with a weak RNG right?
+hosting: file
+handout_files:
+- ./publish/discrete-leaky-prng.py
+- ./publish/output.txt
+flag: oiccflag{cracking_mt_with_many_twists_drains_sanity_bit_by_bit!}
+solve_stats:
+  solved_teams: 1
+  num_teams: 51
+solver: ./solve/solv.sage

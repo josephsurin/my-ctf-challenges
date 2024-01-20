@@ -1,0 +1,19 @@
+id: oicc-2024-ruby-chef
+name: Ruby Chef
+category: web
+ctf: Team Oceania Qualifiers 2024
+difficulty: 3
+tags:
+  - Ruby
+  - Puzzle
+notes: ''
+description: |
+  Ruby Chef is now available for beta testing! Functionality is currently limited, but additional features can be easily added due to its modular design.
+hosting: http
+handout_files:
+- ./publish/ruby-chef.zip
+flag: oiccflag{master_chef_in_the_ruby_kitchen!}
+solve_stats:
+  solved_teams: 4
+  num_teams: 51
+solver: ./solve/solv.py

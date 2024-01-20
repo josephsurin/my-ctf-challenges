@@ -1,0 +1,19 @@
+id: oicc-2024-greeter
+name: Greeter
+category: pwn
+ctf: Team Oceania Qualifiers 2024
+difficulty: 1
+tags:
+  - Buffer overflow
+notes: ''
+description: |
+  Hello, pwner.
+hosting: tcp
+handout_files:
+- ./publish/greeter
+- ./publish/greeter.c
+flag: oiccflag{w3lc0me_2_th3_w0rld_0f_pwn}
+solve_stats:
+  solved_teams: 9
+  num_teams: 51
+solver: ./solve/solve.py

@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ruby Chef</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      margin-top: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+      margin-bottom: 40px;
+    }
+
+    form {
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      max-width: 400px;
+      width: 100%;
+      text-align: center;
+    }
+
+    label {
+      display: block;
+      margin: 10px 0;
+      font-weight: bold;
+      color: #333;
+    }
+
+    select,
+    input {
+      width: 100%;
+      padding: 8px;
+      margin: 6px 0;
+      box-sizing: border-box;
+    }
+
+    button {
+      background-color: #4caf50;
+      color: white;
+      padding: 10px;
+      border: none;
+      border-radius: 4px;
+      margin-top: 8px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
+
+    .affine-options {
+      display: flex;
+      justify-content: space-between;
+      margin-left: 8px;
+      width: 60%;
+    }
+
+    .affine-option {
+      width: 48%;
+    }
+
+    .stepContainer {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .removeButton {
+      background-color: #f443365f;
+      color: white;
+      padding: 10px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      height: 34px;
+      margin-right: 6px;
+    }
+
+    .removeButton:hover {
+      background-color: #d32f2f;
+    }
+
+    #result {
+      margin-top: 8px;
+    }
+
+    .error {
+      color: #f44336;
+    }
+  </style>
+</head>
+<body>
+
+  <div>
+    <h1>Ruby Chef</h1>
+  </div>
+
+  <form id="transformForm">
+    <label for="inputText">Ingredients:</label>
+    <input type="text" id="inputText" name="inputText" required>
+
+    <br>
+
+    <div id="selectContainer">
+      <label for="transformation">Recipe:</label>
+
+      <div class="stepContainer">
+        <button class="removeButton" onclick="removeStep(this)">X</button>
+        <select class="recipe" name="transformation">
+          <option selected value="b64e">Base64 Encode</option>
+          <option value="rot13">ROT13</option>
+          <option value="affine">Affine Transformation</option>
+        </select>
+      </div>
+    </div>
+
+    <button type="button" onclick="addSelectOption()">+</button>
+    
+    <br>
+    <button type="button" onclick="transformText()">Cook</button>
+  </form>
+
+  <div id="result"></div>
+
+  <script>
+    const options = {'b64e': 'Base64 Encode', 'rot13' :'ROT13', 'affine': 'Affine Transformation'};
+
+    function addSelectOption() {
+      const selectContainer = document.getElementById('selectContainer');
+      const newSelect = document.createElement('select');
+      const stepContainer = document.createElement('div');
+      stepContainer.className = 'stepContainer'
+      newSelect.className = 'recipe';
+      newSelect.name = 'transformation';
+
+      Object.keys(options).forEach(optionValue => {
+        const option = document.createElement('option');
+        option.value = optionValue
+        option.text = options[optionValue];
+        newSelect.add(option);
+      });
+
+      newSelect.addEventListener('change', function() {
+        handleRecipeOptionChange(this);
+      });
+
+      const removeButton = document.createElement('button');
+      removeButton.className = 'removeButton';
+      removeButton.innerHTML = 'X';
+      removeButton.addEventListener('click', function() {
+        removeStep(this);
+      });
+
+      stepContainer.appendChild(removeButton);
+      stepContainer.appendChild(newSelect)
+      selectContainer.appendChild(stepContainer);
+    }
+
+    function handleRecipeOptionChange(select) {
+      const selectedOption = select.options[select.selectedIndex].value;
+
+      if (selectedOption === 'affine') {
+        const form = document.getElementById('transformForm');
+        const affineOptionsContainer = document.createElement('div');
+        affineOptionsContainer.className = 'affine-options';
+
+        const optionA = document.createElement('input');
+        optionA.type = 'number';
+        optionA.className = 'affine-option';
+        optionA.placeholder = 'A';
+        affineOptionsContainer.appendChild(optionA);
+
+        const optionB = document.createElement('input');
+        optionB.type = 'number';
+        optionB.className = 'affine-option';
+        optionB.placeholder = 'B';
+        affineOptionsContainer.appendChild(optionB);
+
+        select.parentElement.appendChild(affineOptionsContainer);
+      } else {
+        select.parentElement.querySelector('.affine-options').remove()
+      }
+    }
+
+    document.querySelectorAll('.recipe').forEach(select => {
+      select.addEventListener('change', function() {
+        handleRecipeOptionChange(this);
+      });
+    });
+
+    function removeStep(button) {
+      const stepContainer = button.parentElement;
+      stepContainer.remove();
+    }
+
+    function transformText() {
+      const form = document.getElementById('transformForm');
+      const inputText = form.elements['inputText'].value;
+
+      const recipeSelects = document.querySelectorAll('.recipe');
+      const recipes = Array.from(recipeSelects).map(select => {
+        const actionName = select.value;
+        const recipeOptions = [];
+
+        if (actionName === 'affine') {
+          const affineOptionsContainer = document.querySelector('.affine-options');
+          if (affineOptionsContainer) {
+            const optionA = affineOptionsContainer.querySelector('.affine-option:nth-child(1)').value || 1;
+            const optionB = affineOptionsContainer.querySelector('.affine-option:nth-child(2)').value || 0;
+            return {
+              action: 'affine',
+              options: [parseFloat(optionA), parseFloat(optionB)]
+            }
+          }
+        } else {
+          return { action: actionName }
+        }
+      });
+
+      const jsonData = {
+        recipe: recipes,
+        ingredients: inputText
+      };
+
+      fetch('/transform', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(jsonData)
+      })
+      .then(response => response.json())
+      .then(r => {
+        const resDiv = document.getElementById('result')
+        if(r.err) {
+          resDiv.className = 'error'
+          resDiv.innerText = `Soemthing went wrong: ${r.err}`
+        } else {
+          resDiv.className = ''
+          resDiv.innerText = `Result: ${r.result}`
+        }
+      })
+      .catch(error => {
+        const resDiv = document.getElementById('result')
+        resDiv.className = 'error'
+        resDiv.innerText = `Something went wrong: ${error}`
+      });
+    }
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,19 @@
+id: oicc-2024-additional-emoji-suffering
+name: Additional Emoji Suffering
+category: crypto
+ctf: Team Oceania Qualifiers 2024
+difficulty: 3
+tags:
+  - Math
+notes: ''
+description: |
+  ![additional_emoji_suffering.png](./src/additional-emoji-suffering.png)
+hosting: file
+handout_files:
+- ./publish/additional-emoji-suffering.py
+- ./publish/output.txt
+flag: oiccflag{the_emoji_induced_suffering_never_ends!!}
+solve_stats:
+  solved_teams: 2
+  num_teams: 51
+solver: ./solve/solv.sage
