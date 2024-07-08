@@ -1,0 +1,16 @@
+id: ductf-2024-jmp-flag
+name: jmp flag
+category: rev
+ctf: DownUnderCTF 2024
+difficulty: 1
+tags: ['Puzzle']
+notes: ''
+description: The flag is just a hop, a skip and a jump away.
+hosting: file
+handout_files:
+- ./publish/jmp_flag
+flag: DUCTF{tAb1HFK5h3ZgEX7UTMQfsivcPOaJ?nRy8jrYLVB9Ilempw6xWq2zC0d!SDukG4No}
+solver: ./solve/solv.py
+solve_stats:
+    solved_teams: 71
+    num_teams: 2194

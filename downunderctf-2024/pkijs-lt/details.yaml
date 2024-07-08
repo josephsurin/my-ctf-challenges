@@ -1,0 +1,17 @@
+id: ductf-2024-pkijs-lt
+name: pkijs<
+category: misc
+ctf: DownUnderCTF 2024
+difficulty: 2
+tags: ['CMS']
+notes: ''
+description: A certificate validation issue affects this library in v3.0.15. Please
+  exploit it!
+hosting: http
+handout_files:
+- ./publish/pkijs-lt.tar.gz
+flag: DUCTF{nice_splice_sice_a69bdb8eb2ca9e1}
+solver: ./solve/solv1.py
+solve_stats:
+    solved_teams: 7
+    num_teams: 2194

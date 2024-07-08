@@ -1,0 +1,17 @@
+id: ductf-2024-pac-shell
+name: pac shell
+category: pwn
+ctf: DownUnderCTF 2024
+difficulty: 1
+tags: ['PAC', 'aarch64']
+notes: ''
+description: Welcome to pac shell v0.0.1. You have arbitrary read and write, please
+  turn this into arbitrary code execution!
+hosting: tcp
+handout_files:
+- ./publish/pac_shell.tar.gz
+flag: DUCTF{did_you_just_bruteforce_the_pac?:(}
+solver: ./solve/solv.py
+solve_stats:
+    solved_teams: 55
+    num_teams: 2194

@@ -1,0 +1,17 @@
+id: ductf-2024-decrypt-then-eval
+name: decrypt then eval
+category: crypto
+ctf: DownUnderCTF 2024
+difficulty: 1
+tags: ['Puzzle', 'Misc']
+notes: ''
+description: This server decrypts user input and evaluates it. Please use your magical
+  malleability mastership to retrieve the flag!
+hosting: tcp
+handout_files:
+- ./publish/decrypt-then-eval.py
+flag: DUCTF{should_have_used_authenticated_encryption!}
+solver: ./solve/solv.py
+solve_stats:
+    solved_teams: 197
+    num_teams: 2194

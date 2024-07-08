@@ -1,0 +1,17 @@
+id: ductf-2024-pkijs-eq
+name: pkijs=
+category: misc
+ctf: DownUnderCTF 2024
+difficulty: 3
+tags: ['CMS']
+notes: ''
+description: I've upgraded the library but patched in another bug. Please exploit
+  it!
+hosting: http
+handout_files:
+- ./publish/pkijs-eq.tar.gz
+flag: DUCTF{deduplicate_and_decimate_07bca839bad0b201b9d}
+solver: ./solve/solv.py
+solve_stats:
+    solved_teams: 1
+    num_teams: 2194

@@ -1,0 +1,17 @@
+id: ductf-2024-poly1305-otm
+name: Poly1305 OTM
+category: crypto
+ctf: DownUnderCTF 2024
+difficulty: 2
+tags: ['Poly1305']
+notes: ''
+description: The Poly1305 hashing algorithm makes for a good one-time MAC. Hopefully
+  I didn't mess anything up when using it.
+hosting: tcp
+handout_files:
+- ./publish/poly1305-otm.tar.gz
+flag: DUCTF{breaking_aslr_by_breaking_crypto!}
+solver: ./solve/solv.py
+solve_stats:
+    solved_teams: 6
+    num_teams: 2194

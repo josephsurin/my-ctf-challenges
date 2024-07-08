@@ -1,0 +1,17 @@
+id: ductf-2024-sign-in
+name: sign in
+category: pwn
+ctf: DownUnderCTF 2024
+difficulty: 1
+tags: ['Puzzle']
+notes: ''
+description: Please sign in as root to get a shell.
+hosting: tcp
+handout_files:
+- ./publish/sign-in.c
+- ./publish/sign-in
+flag: DUCTF{welcome_root!_9dbfa98e17b7af9dbc1}
+solver: ./solve/solve.py
+solve_stats:
+    solved_teams: 95
+    num_teams: 2194

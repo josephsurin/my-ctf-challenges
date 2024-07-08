@@ -1,0 +1,17 @@
+id: ductf-2024-number-mashing
+name: number mashing
+category: beginner
+ctf: DownUnderCTF 2024
+difficulty: 0
+tags: ['Trivia', 'arm']
+notes: ''
+description: Mash your keyboard numpad in a specific order and a flag might just pop
+  out!
+hosting: tcp
+handout_files:
+- ./publish/number-mashing
+flag: DUCTF{w0w_y0u_just_br0ke_math!!}
+solver: ./solve/solv.py
+solve_stats:
+    solved_teams: 299
+    num_teams: 2194

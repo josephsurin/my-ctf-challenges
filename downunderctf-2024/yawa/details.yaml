@@ -1,0 +1,19 @@
+id: ductf-2024-yawa
+name: yawa
+category: beginner
+ctf: DownUnderCTF 2024
+difficulty: 0
+tags: []
+notes: ''
+description: Yet another welcome application.
+hosting: tcp
+handout_files:
+- ./publish/yawa.c
+- ./publish/yawa
+- ./publish/libc.so.6
+- ./publish/ld-linux-x86-64.so.2
+flag: DUCTF{Hello,AAAAAAAAAAAAAAAAAAAAAAAAA}
+solver: ./solve/solve.py
+solve_stats:
+  solved_teams: 184
+  num_teams: 2194

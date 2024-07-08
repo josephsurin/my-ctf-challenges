@@ -1,0 +1,19 @@
+id: ductf-2024-sheep-farm-simulator
+name: sheep farm simulator
+category: pwn
+ctf: DownUnderCTF 2024
+difficulty: 2
+tags: ['Heap']
+notes: ''
+description: Practice your sheep grooming skills with this sheep farm simulator!
+hosting: tcp
+handout_files:
+- ./publish/sheep.c
+- ./publish/sheep
+- ./publish/libc.so.6
+- ./publish/ld-linux-x86-64.so.2
+flag: DUCTF{y0u_ar3_the_gre4t3st_sheph3rd!!}
+solver: ./solve/solv.py
+solve_stats:
+    solved_teams: 21
+    num_teams: 2194

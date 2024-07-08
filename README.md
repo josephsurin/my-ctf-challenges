@@ -14,8 +14,8 @@ Fri, 18 Sept. 2020, 19:00 AEST — Sun, 20 Sept. 2020, 19:00 AEST
 |[Extra Cool Block Chaining](downunderctf-2020/extra-cool-block-chaining)|crypto|⭐️⭐️|52|
 |[Hex Shift Cipher](downunderctf-2020/hex-shift-cipher)|crypto|⭐️⭐️|44|
 |[Cosmic Rays](downunderctf-2020/cosmic-rays)|crypto|⭐️⭐️|25|
-|[1337crypt](downunderctf-2020/1337crypt)|crypto|⭐️⭐️⭐️|3|
 |[ImpECCable](downunderctf-2020/impeccable)|crypto|⭐️⭐️⭐️|3|
+|[1337crypt](downunderctf-2020/1337crypt)|crypto|⭐️⭐️⭐️|3|
 |[LSB\|\|MSB Calculation Game](downunderctf-2020/lsb-msb-calculation-game)|crypto|⭐️⭐️⭐️|2|
 
 # DownUnderCTF 2021
@@ -66,8 +66,8 @@ Fri, 23 Sept. 2022, 19:30 AEST — Sun, 25 Sept. 2022, 19:30 AEST
 |[last digit](downunderctf-2022/last-digit)|misc|⭐️|26|
 |[Crypto Casino](downunderctf-2022/crypto-casino)|blockchain|⭐️|25|
 |[rsa interval oracle iii](downunderctf-2022/rsa-interval-oracle-iii)|crypto|⭐️⭐️|23|
-|[click the flag](downunderctf-2022/click-the-flag)|rev|⭐️⭐️|18|
 |[time locked](downunderctf-2022/time-locked)|crypto|⭐️⭐️|18|
+|[click the flag](downunderctf-2022/click-the-flag)|rev|⭐️⭐️|18|
 |[battlesweeper](downunderctf-2022/battlesweeper)|misc|⭐️⭐️⭐️|18|
 |[kv_db](downunderctf-2022/kv-db)|pwn|⭐️⭐️|17|
 |[faulty arx](downunderctf-2022/faulty-arx)|crypto|⭐️⭐️⭐️|11|
@@ -98,14 +98,39 @@ Fri, 01 Sept. 2023, 19:30 AEST — Sun, 03 Sept. 2022, 19:30 AEST
 |[mini dns server](downunderctf-2023/mini-dns-server)|misc|⭐️⭐️|39|
 |[sideways](downunderctf-2023/sideways)|rev|⭐️⭐️|29|
 |[fnv](downunderctf-2023/fnv)|crypto|⭐️⭐️|27|
-|[apbq rsa ii](downunderctf-2023/apbq-rsa-ii)|crypto|⭐️⭐️|26|
 |[binary mail](downunderctf-2023/binary-mail)|pwn|⭐️⭐️|26|
+|[apbq rsa ii](downunderctf-2023/apbq-rsa-ii)|crypto|⭐️⭐️|26|
 |[advanced vector expositions](downunderctf-2023/advanced-vector-expositions)|rev|⭐️⭐️⭐️|12|
 |[lcg card gimmicks](downunderctf-2023/lcg-card-gimmicks)|crypto|⭐️⭐️|11|
 |[number theoretic flag checker](downunderctf-2023/number-theoretic-flag-checker)|rev|⭐️⭐️|9|
 |[handshake](downunderctf-2023/handshake)|crypto|⭐️⭐️⭐️|4|
 |[encrypted mail](downunderctf-2023/encrypted-mail)|crypto|⭐️⭐️⭐️|3|
 |[dilithium±](downunderctf-2023/dilithium)|crypto|⭐️⭐️⭐️⭐️|0|
+
+# DownUnderCTF 2024
+Fri, 05 July 2024, 19:30 AEST — Sun, 07 July 2024, 19:30 AEST
+
+[**Website**](https://duc.tf) | [**CTFTime**](https://ctftime.org/event/2284/) | [**Official Repository**](https://github.com/DownUnderCTF/Challenges_2024_Public)
+
+|Name|Category|Difficulty|Solves|
+|---|---|---|---|
+|[number mashing](downunderctf-2024/number-mashing)|beginner|👶|299|
+|[vector overflow](downunderctf-2024/vector-overflow)|beginner|👶|239|
+|[decrypt then eval](downunderctf-2024/decrypt-then-eval)|crypto|⭐️|197|
+|[yawa](downunderctf-2024/yawa)|beginner|👶|184|
+|[sign in](downunderctf-2024/sign-in)|pwn|⭐️|95|
+|[jmp flag](downunderctf-2024/jmp-flag)|rev|⭐️|71|
+|[pac shell](downunderctf-2024/pac-shell)|pwn|⭐️|55|
+|[pressing buttons](downunderctf-2024/pressing-buttons)|rev|⭐️⭐️|34|
+|[dungeon](downunderctf-2024/dungeon)|rev|⭐️⭐️|22|
+|[sheep farm simulator](downunderctf-2024/sheep-farm-simulator)|pwn|⭐️⭐️|21|
+|[average assembly assignment](downunderctf-2024/average-assembly-assignment)|rev|⭐️⭐️|13|
+|[pkijs<](downunderctf-2024/pkijs-lt)|misc|⭐️⭐️|7|
+|[Poly1305 OTM](downunderctf-2024/poly1305-otm)|crypto|⭐️⭐️|6|
+|[ESPecially secure boot](downunderctf-2024/especially-secure-boot)|pwn|⭐️⭐️⭐️|3|
+|[adorable encrypted animal](downunderctf-2024/adorable-encrypted-animal)|rev|⭐️⭐️⭐️|3|
+|[pkijs=](downunderctf-2024/pkijs-eq)|misc|⭐️⭐️⭐️|1|
+|[kyber decryption oracle](downunderctf-2024/kyber-decryption-oracle)|crypto|⭐️⭐️⭐️⭐️|1|
 
 # Cyber Apocalypse 2023
 Sun, 19 March 2023, 00:00 AEDT — Thu, 23 March 2023, 23:59 AEDT

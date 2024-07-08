@@ -1,0 +1,19 @@
+id: ductf-2024-adorable-encrypted-animal
+name: adorable encrypted animal
+category: rev
+ctf: DownUnderCTF 2024
+difficulty: 3
+tags: ['arm', 'macOS']
+notes: ''
+description: |-
+  An adorable animal was encrypted with this program! A flag too, I guess.
+
+  NOTE: `aea` and `libAppleArchive.dylib` are provided for your convenience. They are taken without modification from the macOS system that ran the binary.
+hosting: file
+handout_files:
+- ./publish/aea.tar.gz
+flag: DUCTF{h0pe_y0u_enjoy3d_th3_fr33_cat_p1c_:)}
+solver: ./solve/solv.py
+solve_stats:
+  solved_teams: 3
+  num_teams: 2194

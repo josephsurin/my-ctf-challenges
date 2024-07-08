@@ -1,0 +1,17 @@
+id: ductf-2024-vector-overflow
+name: vector overflow
+category: beginner
+ctf: DownUnderCTF 2024
+difficulty: 0
+tags: ['C++']
+notes: ''
+description: Please overflow into the vector and control it!
+hosting: tcp
+handout_files:
+- ./publish/vector_overflow
+- ./publish/vector_overflow.cpp
+flag: DUCTF{y0u_pwn3d_th4t_vect0r!!}
+solver: ./solve/solve.py
+solve_stats:
+    solved_teams: 239
+    num_teams: 2194

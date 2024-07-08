@@ -1,0 +1,16 @@
+id: ductf-2024-average-assembly-assignment
+name: average assembly assignment
+category: rev
+ctf: DownUnderCTF 2024
+difficulty: 2
+tags: ['Puzzle', 'Misc']
+notes: ''
+description: This is just your average assembly assignment.
+hosting: tcp
+handout_files:
+- ./publish/aaa
+flag: DUCTF{y0u_pass!_dbfae0837abc0a239fd7abf93be8a01dfec}
+solver: ./solve/solv.py
+solve_stats:
+    solved_teams: 13
+    num_teams: 2194

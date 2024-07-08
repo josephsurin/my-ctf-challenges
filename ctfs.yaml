@@ -22,6 +22,12 @@
   description: ""
   date: "Fri, 01 Sept. 2023, 19:30 AEST — Sun, 03 Sept. 2022, 19:30 AEST"
   repo: https://github.com/DownUnderCTF/Challenges_2023_Public
+- name: DownUnderCTF 2024
+  website: https://duc.tf
+  ctftime: https://ctftime.org/event/2284/
+  description: ""
+  date: "Fri, 05 July 2024, 19:30 AEST — Sun, 07 July 2024, 19:30 AEST"
+  repo: https://github.com/DownUnderCTF/Challenges_2024_Public
 - name: Cyber Apocalypse 2023
   website: https://ctf.hackthebox.com/event/details/cyber-apocalypse-2023-the-cursed-mission-821
   ctftime: https://ctftime.org/event/1889/
