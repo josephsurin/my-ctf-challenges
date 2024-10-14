@@ -1,0 +1,37 @@
+diff --git a/ref/indcpa.c b/ref/indcpa.c
+index 9a78c09..8aeb3bc 100644
+--- a/ref/indcpa.c
++++ b/ref/indcpa.c
+@@ -85,8 +85,8 @@ static void unpack_sk(polyvec *sk, const uint8_t packedsk[KYBER_INDCPA_SECRETKEY
+ **************************************************/
+ static void pack_ciphertext(uint8_t r[KYBER_INDCPA_BYTES], polyvec *b, poly *v)
+ {
+-  polyvec_compress(r, b);
+-  poly_compress(r+KYBER_POLYVECCOMPRESSEDBYTES, v);
++  polyvec_tobytes(r, b);
++  poly_compress(r+KYBER_POLYVECBYTES, v);
+ }
+ 
+ /*************************************************
+@@ -275,7 +275,7 @@ void indcpa_enc(uint8_t c[KYBER_INDCPA_BYTES],
+   for(i=0;i<KYBER_K;i++)
+     poly_getnoise_eta1(sp.vec+i, coins, nonce++);
+   for(i=0;i<KYBER_K;i++)
+-    poly_getnoise_eta2(ep.vec+i, coins, nonce++);
++    poly_getnoise_eta2(ep.vec+i, coins, --nonce);
+   poly_getnoise_eta2(&epp, coins, nonce++);
+ 
+   polyvec_ntt(&sp);
+diff --git a/ref/params.h b/ref/params.h
+index 0802c74..365a358 100644
+--- a/ref/params.h
++++ b/ref/params.h
+@@ -45,7 +45,7 @@
+ #define KYBER_INDCPA_MSGBYTES       (KYBER_SYMBYTES)
+ #define KYBER_INDCPA_PUBLICKEYBYTES (KYBER_POLYVECBYTES + KYBER_SYMBYTES)
+ #define KYBER_INDCPA_SECRETKEYBYTES (KYBER_POLYVECBYTES)
+-#define KYBER_INDCPA_BYTES          (KYBER_POLYVECCOMPRESSEDBYTES + KYBER_POLYCOMPRESSEDBYTES)
++#define KYBER_INDCPA_BYTES          (KYBER_POLYVECBYTES + KYBER_POLYCOMPRESSEDBYTES)
+ 
+ #define KYBER_PUBLICKEYBYTES  (KYBER_INDCPA_PUBLICKEYBYTES)
+ /* 32 bytes of additional space to save H(pk) */

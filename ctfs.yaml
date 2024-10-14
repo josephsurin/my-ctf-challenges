@@ -28,6 +28,11 @@
   description: ""
   date: "Fri, 05 July 2024, 19:30 AEST — Sun, 07 July 2024, 19:30 AEST"
   repo: https://github.com/DownUnderCTF/Challenges_2024_Public
+- name: Blue Water CTF 2024
+  website: https://bw.ctf.ing
+  ctftime: https://ctftime.org/event/2479/
+  description: ""
+  date: "Sun, 13 Oct. 2024, 01:00 AEDT — Mon, 14 Oct. 2024, 13:00 AEDT"
 - name: Cyber Apocalypse 2023
   website: https://ctf.hackthebox.com/event/details/cyber-apocalypse-2023-the-cursed-mission-821
   ctftime: https://ctftime.org/event/1889/

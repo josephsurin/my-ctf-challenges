@@ -132,6 +132,15 @@ Fri, 05 July 2024, 19:30 AEST — Sun, 07 July 2024, 19:30 AEST
 |[pkijs=](downunderctf-2024/pkijs-eq)|misc|⭐️⭐️⭐️|1|
 |[kyber decryption oracle](downunderctf-2024/kyber-decryption-oracle)|crypto|⭐️⭐️⭐️⭐️|1|
 
+# Blue Water CTF 2024
+Sun, 13 Oct. 2024, 01:00 AEDT — Mon, 14 Oct. 2024, 13:00 AEDT
+
+[**Website**](https://bw.ctf.ing) | [**CTFTime**](https://ctftime.org/event/2479/) 
+
+|Name|Category|Difficulty|Solves|
+|---|---|---|---|
+|[Kyber Noncense](blue-water-ctf-2024/kyber-noncense)|crypto|⭐️⭐️|4|
+
 # Cyber Apocalypse 2023
 Sun, 19 March 2023, 00:00 AEDT — Thu, 23 March 2023, 23:59 AEDT
 

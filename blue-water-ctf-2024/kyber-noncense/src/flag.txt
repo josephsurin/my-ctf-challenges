@@ -1,0 +1,1 @@
+bwctf{homework_1:solve_with_nonce--_instead_of_--nonce,_homework_2:solve_without_removal_of_compression}
