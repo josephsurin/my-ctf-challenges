@@ -1,0 +1,18 @@
+id: ductf-2025-certvalidated
+name: certvalidated
+category: crypto
+ctf: DownUnderCTF 2025
+difficulty: 3
+tags: []
+notes: ''
+description: How validated is your cert?
+hosting: tcp
+handout_files:
+- ./publish/certvalidated.py
+- ./publish/Dockerfile
+- ./publish/root.crt
+flag: DUCTF{d1d_y0u_just_f1nd_an_0day???}
+solve_stats:
+  solved_teams: 2
+  num_teams: 1667
+solver: ./solve/solv.py

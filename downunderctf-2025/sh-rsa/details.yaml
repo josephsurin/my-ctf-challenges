@@ -1,0 +1,17 @@
+id: ductf-2025-sh-rsa
+name: SH-RSA
+category: crypto
+ctf: DownUnderCTF 2025
+difficulty: 2
+tags: []
+notes: ''
+description: You should only need a short amount of time to break this short hash
+  RSA signature scheme!
+hosting: tcp
+handout_files:
+- ./publish/sh-rsa.py
+flag: DUCTF{how_did_you_break_64_bits_in_46_seconds!?}
+solve_stats:
+  solved_teams: 13
+  num_teams: 1667
+solver: ./solve/solv.py

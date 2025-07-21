@@ -132,6 +132,22 @@ Fri, 05 July 2024, 19:30 AEST — Sun, 07 July 2024, 19:30 AEST
 |[pkijs=](downunderctf-2024/pkijs-eq)|misc|⭐️⭐️⭐️|1|
 |[kyber decryption oracle](downunderctf-2024/kyber-decryption-oracle)|crypto|⭐️⭐️⭐️⭐️|1|
 
+# DownUnderCTF 2025
+Fri, 18 July 2025, 19:30 AEST — Sun, 20 July 2024, 19:30 AEST
+
+[**Website**](https://2025.duc.tf) | [**CTFTime**](https://ctftime.org/event/2669/) | [**Official Repository**](https://github.com/DownUnderCTF/Challenges_2025_Public)
+
+|Name|Category|Difficulty|Solves|
+|---|---|---|---|
+|[SwiftPasswordManager: ClickMe](downunderctf-2025/swiftpasswordmanager-clickme)|rev|⭐️|115|
+|[fakeobj.py](downunderctf-2025/fakeobj.py)|pwn|⭐️|106|
+|[yet another login](downunderctf-2025/yet-another-login)|crypto|⭐️|44|
+|[SwiftPasswordManager: LoadMe](downunderctf-2025/swiftpasswordmanager-loadme)|rev|⭐️⭐️|41|
+|[SwiftPasswordManager: CrackMe](downunderctf-2025/swiftpasswordmanager-crackme)|rev|⭐️⭐️|21|
+|[rw.py](downunderctf-2025/rw.py)|pwn|⭐️⭐️|15|
+|[SH-RSA](downunderctf-2025/sh-rsa)|crypto|⭐️⭐️|13|
+|[certvalidated](downunderctf-2025/certvalidated)|crypto|⭐️⭐️⭐️|2|
+
 # Blue Water CTF 2024
 Sun, 13 Oct. 2024, 01:00 AEDT — Mon, 14 Oct. 2024, 13:00 AEDT
 

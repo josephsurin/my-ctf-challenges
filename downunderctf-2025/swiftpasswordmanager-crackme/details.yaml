@@ -1,0 +1,19 @@
+id: ductf-2025-spm-crackme
+name: 'SwiftPasswordManager: CrackMe'
+category: rev
+ctf: DownUnderCTF 2025
+difficulty: 2
+tags: []
+notes: ''
+description: |-
+  If you choose a good password, you might get a flag!
+
+  NOTE: This challenge uses the same handout app as "SwiftPasswordManager: ClickMe"
+hosting: file
+handout_files: []
+flag: DUCTF{cho05iNg_A_p4s5W0rd_15_h4Rd...}
+solve_stats:
+  solved_teams: 21
+  num_teams: 1667
+writeup:
+  file: ./solve/WRITEUP.md

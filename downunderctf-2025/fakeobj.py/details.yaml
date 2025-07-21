@@ -1,0 +1,17 @@
+id: ductf-2025-fakeobjpy
+name: fakeobj.py
+category: pwn
+ctf: DownUnderCTF 2025
+difficulty: 1
+tags: []
+notes: ''
+description: send me your best fake snake object
+hosting: tcp
+handout_files:
+- ./publish/fakeobj.py
+- ./publish/Dockerfile
+flag: DUCTF{what_do_you_call_a_snake_that_bakes?_a_pie-thon!}
+solve_stats:
+  solved_teams: 106
+  num_teams: 1667
+solver: ./solve/solv.py

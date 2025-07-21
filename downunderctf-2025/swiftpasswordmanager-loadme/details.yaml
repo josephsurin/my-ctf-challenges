@@ -1,0 +1,20 @@
+id: ductf-2025-spm-loadme
+name: 'SwiftPasswordManager: LoadMe'
+category: rev
+ctf: DownUnderCTF 2025
+difficulty: 2
+tags: []
+notes: ''
+description: |-
+  I used the app to save a password before realising that the Load button doesn't do anything... Can you help me load my passwords? The master password is `DUCTF2025!`.
+
+  NOTE: This challenge uses the same handout app as "SwiftPasswordManager: ClickMe"
+hosting: file
+handout_files:
+- ./publish/passwords.spm
+flag: DUCTF{the_password_is_cool_but_the_flag_is_even_cooler}
+solve_stats:
+  solved_teams: 41
+  num_teams: 1667
+writeup:
+  file: ./solve/solv.py
